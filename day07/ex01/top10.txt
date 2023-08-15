@@ -1,0 +1,13 @@
+Showing nodes accounting for 250ms, 96.15% of 260ms total
+Showing top 10 nodes out of 60
+      flat  flat%   sum%        cum   cum%
+     120ms 46.15% 46.15%      150ms 57.69%  syscall.syscall
+      30ms 11.54% 57.69%       30ms 11.54%  runtime.kevent
+      30ms 11.54% 69.23%       30ms 11.54%  runtime.libcCall
+      10ms  3.85% 73.08%       10ms  3.85%  runtime.(*gcControllerState).update
+      10ms  3.85% 76.92%       10ms  3.85%  runtime.(*sweepLocked).sweep
+      10ms  3.85% 80.77%       20ms  7.69%  runtime.findrunnable
+      10ms  3.85% 84.62%       30ms 11.54%  runtime.mallocgc
+      10ms  3.85% 88.46%       10ms  3.85%  runtime.memclrNoHeapPointers
+      10ms  3.85% 92.31%       10ms  3.85%  runtime.pthread_cond_wait
+      10ms  3.85% 96.15%       10ms  3.85%  runtime.step
