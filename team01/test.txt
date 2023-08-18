@@ -1,0 +1,25 @@
+SET 44bffb18-0017-40a9-96a8-666e3184d265 '{"name": "Chapayev's Mustache comb"}'
+SET e97d6b96-f1bb-42f2-9d46-0526e77f24cd '{"name": "Anka & basket"}'
+SET c341f294-af9c-4408-b05a-53fe59ef4381 '{"name": "Pet'ka knife"}'
+SET 4c4b1a27-253f-4c47-8f74-4cd5bf5f0bc8 '{"name": "Abobba's friends"}'
+SET c285c8c2-4d38-4ce0-b67a-085d16acfd96 '{"name": "How are you ?"}'
+SET 12597265-4aa6-4624-9b1f-977b159ca95b '{"name": "Three man on the boat"}'
+
+GET 44bffb18-0017-40a9-96a8-666e3184d265
+GET e97d6b96-f1bb-42f2-9d46-0526e77f24cd
+GET c341f294-af9c-4408-b05a-53fe59ef4381
+GET 4c4b1a27-253f-4c47-8f74-4cd5bf5f0bc8
+GET c285c8c2-4d38-4ce0-b67a-085d16acfd96
+GET 12597265-4aa6-4624-9b1f-977b159ca95b
+
+DELETE 44bffb18-0017-40a9-96a8-666e3184d265
+DELETE e97d6b96-f1bb-42f2-9d46-0526e77f24cd
+DELETE c341f294-af9c-4408-b05a-53fe59ef4381
+DELETE 4c4b1a27-253f-4c47-8f74-4cd5bf5f0bc8
+DELETE c285c8c2-4d38-4ce0-b67a-085d16acfd96
+DELETE 12597265-4aa6-4624-9b1f-977b159ca95b
+
+For change data(add comma):
+SET 12597265-4aa6-4624-9b1f-977b159ca95b '{"name": "Three man, on the boat"}'
+And check change:
+GET 12597265-4aa6-4624-9b1f-977b159ca95b
