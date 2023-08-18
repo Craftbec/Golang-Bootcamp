@@ -132,6 +132,6 @@ func main() {
 	}()
 	out := crawlWeb(context.Background(), c)
 	for in := range out {
-		fmt.Println(len(*in))
+		fmt.Println((*in)[:300])
 	}
 }
